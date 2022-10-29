@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+}
+h1{
+    padding: 0px 0px 20px 0px;
+}
+.date{
+    margin-left: 15px;
+    padding: 20px 0px 0px 0px;
+    color: gray;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.all{
+    padding: 15px 40px 16px 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius:10px;
+    border:1px solid rgb(245, 241, 241);
+}
+.head{
+    background-color: rgb(240, 238, 236) ;
+    width: 370px;
+    padding:15px 0px;
+    border-radius: 10px;
+}
+.icon1{
+    padding: 15px 10px;
+    color: gray;
+    
+}
+.icon2{
+    padding: 15px 10px;
+    color: gray;
+
+}
+.icon1 .fa-solid{
+    margin-right: 5px;
+    color: #ffbf00;
+    font-size: 8px;
+}
+.icon2 .fa-solid{
+    margin-right: 5px;
+    color: #0080ff;
+    font-size: 8px;
+    margin-left:50px;
+}
+.box{
+    border-style: solid;
+    padding: 20px 15px 15px 15px ;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgb(201, 196, 196);
+    width: 340px;
+    margin-top: 10px;
+}
+.await{
+    margin-left:110px;
+    background-color: #ffecb3;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #b38600;
+}
+
+.Approved{
+    margin-left:100px;
+    background-color: #adebad;
+    padding: 5px 9px;
+    border-radius: 5px;
+    color: #34a109;
+}
+
+.Declined{
+    margin-left:110px;
+    background-color: #ffe6f3;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #be6292
+    ;
+}
+.fa-sharp {
+    color: #9e9c94;
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 1px 5px;
+    margin-left: 260px;
+
+}
