@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit a leave request</title>
+    <script src="https://kit.fontawesome.com/e0caf5ef1c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,17 +13,81 @@
 <!---------container-------->
 <h1>Submit A Request</h1>
     <div class="landingPage">
-        <h2>Type of Leave</h2>
-    <div class="block" >
-        <div class="B1">
-            <input type="radio" style="margin-top: 20px 20px;">
+        <h3>Type of Leave</h3>
+
+        <div class="row">
+            <div class="block" >
+                <div class="B1">
+                <i class="fa-solid fa-circle-dot"></i>
+                </div>
+                <div class="txt">
+                    <label class="l1">Paid Time Off (PTO)</label> <br>
+                    <label class="l2">Each Computercraft employee has 15 <br>PTO days per year.</label>
+                </div>
+            </div>    
+            <div class="block1" >
+                <div class="B">
+                    <i class="fa-regular fa-circle"></i>
+                </div>
+                <div class="txt">
+                    <label class="l1">Telecommuting</label> <br>
+                    <label class="l2">working outside of the office during normal office hours.</label>
+                </div>
+            </div> 
+
         </div>
-        <div>
-            <label >Paid Time Off(PTO)</label> <br>
-            <label >Each Computercraft employee has 15 PTO days per year.</label>
+
+        <div class="row">
+            <div class="block" >
+                <div class="B">
+                    <i class="fa-regular fa-circle"></i>
+                </div>
+                <div class="txt">
+                    <label class="l1">Jury Duty</label> <br>
+                    <label class="l2">Computercraft will compensate employees for up to 15 days of jury duty.</label>
+                </div>
+            </div>    
+            <div class="block1" >
+                <div class="B">
+                    <i class="fa-regular fa-circle"></i>
+                </div>
+                <div class="txt">
+                    <label class="l1">Bereavement</label> <br>
+                    <label class="l2">If a close friend member has passed away,please take time to be with your family.</label>
+                </div>
+            </div> 
         </div>
-    </div>    
-    </div>
+
+        <p class="hr">___________________________________________________________________________________________</p>
+
+        <h3>Date Range</h3>
+
+            <div class="date">
+                <div><p>Start Date</p>
+                    <input type="date">
+                </div>
+        
+                <div class="arrow">           
+                  <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div> <p>End Date</p>
+                <input type="date">
+                </div>
+            </div>
+
+    <p class="hr">___________________________________________________________________________________________</p>
+
+    <h3>Note to Management</h3>
+
+    <input class="note" type="text">
+
+<div class="btn">
+    <a class="submit">Submit Request</a>
+</div>
+    
+
+</div>
 </div>
 
 </body>
