@@ -39,6 +39,10 @@
     border: 2px solid rgb(72, 170, 187);
     background-color: rgb(225, 241, 239);
   }
+.block1:hover {
+    border: 2px solid rgb(72, 170, 187);
+    background-color: rgb(225, 241, 239);
+  }
 .block1{
     margin-top: 20px;
     margin-left: 20px;
@@ -107,4 +111,7 @@ p{
     border-style: solid;
     border-color: rgb(72, 170, 187);
 
+}
+::placeholder{
+    color: rgb(163, 159, 159);
 }
