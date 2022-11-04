@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+table{
+  width: 100%;
+  font-size: 13px;
+  border-bottom: 1px solid rgb(202, 201, 201);
+
+}
+.profile{
+  display: flex;
+}
+.profile img{
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+.approve-btn{
+  display: flex;
+  padding-left: 20px;
+}
+.approve-btn button{
+padding: 5px 10px;
+margin: 10px;
+}
+.approve-btn .p1{
+  color: red;
+  font-weight: bold;
+  padding-top: 16px;
+}
+.approve-btn .p2{
+  color: black;
+  font-weight: bold;
+  padding-top: 16px;
+}
+table>thead{
+  color: rgb(183, 187, 187);
+}
+table>thead th{
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+table>tbody td{
+  padding: 5px;
+}
+.profile .name{
+  color: black;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.leave-type{
+  font-weight: bold;
+  color: rgb(119, 117, 117);
+}
+.date{
+  font-weight: bold;
+  color: rgb(119, 117, 117);
+}
