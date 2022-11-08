@@ -1,8 +1,19 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 27px;
 }
 
+.logo h3{
+  color: white;
+  background-color: gray;
+  display: inline;
+  border-radius: 10px;
+  padding: 2px 4px;
+}
 .logo p {
   margin: 0;
   padding: 2px 5px;
@@ -14,11 +25,15 @@ h1 {
   line-height: 15px;
   background-color: rgb(28, 168, 0);
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo {
   display: inline;
+  font-weight: bold;
+  color: aliceblue;
+  padding: 2px 5px;
+  border-radius: 25px;
+  font-size: 12px;
 }
 
 .box {
@@ -27,6 +42,65 @@ h1 {
   border-radius: 25px;
   border-width: 1px;
   width: 13%;
-  height: 175px;
+  height: 190px;
   float: left;
+}
+
+.p1 {
+  color: gray;
+  margin-left: 20px
+}
+
+.p2 {
+  background-color: rgb(45, 46, 54);
+  color: aliceblue;
+  padding: 30px 30px;
+  font-size: 15px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+.p3 {
+  color: gray;
+  margin-left: 20px
+}
+
+.p4 {
+  background-color: rgb(45, 46, 54);
+  color: aliceblue;
+  padding: 22px 30px;
+  font-size: 15px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+.p5 {
+  color: gray;
+  margin-left: 20px
+}
+
+.p6 {
+  background-color: rgb(45, 46, 54);
+  color: aliceblue;
+  padding: 30px 30px;
+  font-size: 15px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+#down {
+  color: rgb(211, 68, 140);
+}
+
+.box h1 {
+  display: inline;
+  margin-left: 20px
+}
+
+.box i {
+
+  margin-left: 50px;
+  font-size: small;
+  color: rgba(7, 185, 185, 0.507);
+  font-weight: 900;
 }
