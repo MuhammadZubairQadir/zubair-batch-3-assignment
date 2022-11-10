@@ -1,85 +1,126 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 40px;
+
+.container {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 8px;
 }
-h1{
+
+.body_{
+    margin-left: 20px;
+}
+h1 {
     padding: 0px 0px 20px 0px;
 }
-.date{
+
+.date {
     margin-left: 15px;
     padding: 20px 0px 0px 0px;
-    color: gray;font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif ;
 }
-.all{
+
+.leave-date{
+    padding: 4px 0px;
+    color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.A1{
+    color: gray;
+}
+
+.all {
     padding: 15px 40px 16px 40px;
     background-color: rgb(255, 255, 255);
-    border-radius:10px;
-    border:1px solid rgb(245, 241, 241);
-}
-.head{
-    background-color: rgb(240, 238, 236) ;
-    width: 370px;
-    padding:15px 0px;
     border-radius: 10px;
+    border: 1px solid rgb(245, 241, 241);
+    width: 30px;
 }
-.icon1{
-    padding: 15px 10px;
-    color: gray;
-    
-}
-.icon2{
-    padding: 15px 10px;
-    color: gray;
 
+.head {
+    background-color: rgb(243, 242, 241);
+    width: 370px;
+    border-radius: 10px;
+    display: flex;
 }
-.icon1 .fa-solid{
-    margin-right: 5px;
+
+.icon1 .fa-solid {
+    padding-top: 22px ;
+    padding-left: 40px;
+    width: 10px;
     color: #ffbf00;
     font-size: 8px;
 }
-.icon2 .fa-solid{
-    margin-right: 5px;
-    color: #0080ff;
+
+.icon2 .fa-solid {
+    padding-top: 22px ;
+    padding-left: 40px;
+
+    width: 10px;
+    color: #4c00ff;
     font-size: 8px;
-    margin-left:50px;
+    
 }
-.box{
+button{
+    border: 1px solid  rgb(240, 238, 236);
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.button1{
+    padding-top: 16px;
+    padding-left: 5px;
+}
+.button2{
+    padding-top: 16px;
+    padding-left: 5px;
+
+}
+.box {
     border-style: solid;
-    padding: 20px 15px 15px 15px ;
+    padding: 20px 15px 15px 15px;
     border-radius: 10px;
     border-width: 1px;
     border-color: rgb(201, 196, 196);
     width: 340px;
     margin-top: 10px;
 }
-.await{
-    margin-left:110px;
+
+.await {
+    margin-left: 116px;
     background-color: #ffecb3;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     color: #b38600;
 }
 
-.Approved{
-    margin-left:100px;
+.leave-type{
+    color: #ffcc33;
+    display: inline;
+}
+
+.Approved {
+    margin-left: 116px;
     background-color: #adebad;
     padding: 5px 9px;
     border-radius: 5px;
     color: #34a109;
 }
 
-.Declined{
-    margin-left:110px;
+.Declined {
+    margin-left: 132px;
     background-color: #ffe6f3;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    color: #be6292
-    ;
+    color: #be6292;
+}
+.sick{
+    color: #92918d;
+    display: inline;
+    margin-right: 20px
 }
 .fa-sharp {
     color: #9e9c94;
